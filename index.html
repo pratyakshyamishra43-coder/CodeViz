@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeViz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h1>CodeViz</h1>
+        <p>Execution Visualizer</p>
+    </nav>
+
+
+    <!-- EXECUTION CONTROLS -->
+    <section class="execution-bar">
+        <button class="control-btn">⏮</button>
+        <button class="control-btn">▶</button>
+        <button class="control-btn">⏭</button>
+
+        <span class="step-count">Step 0 / 0</span>
+
+        <button class="run-btn">Run</button>
+    </section>
+
+
+    <!-- STATUS BAR -->
+    <section class="status-bar">
+        Check: Waiting to run...
+    </section>
+
+
+
+    <!-- MAIN APP -->
+    <main class="container">
+
+        <!-- LEFT : CODE EDITOR -->
+        <section class="editor">
+            <h2>Code Editor</h2>
+        </section>
+
+
+
+        <!-- RIGHT : VISUALIZER -->
+        <section class="right-panel">
+
+            <div class="panel call-stack">
+                <h3>Call Stack</h3>
+            </div>
+
+            <div class="panel variables">
+                <h3>Variables</h3>
+            </div>
+
+            <div class="panel heap">
+                <h3>Heap Memory</h3>
+            </div>
+
+            <div class="panel console">
+                <h3>Console Output</h3>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
