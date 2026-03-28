@@ -1,0 +1,128 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* BODY */
+
+body{
+    background:#0b1220;
+    color:#e5e7eb;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    flex-direction:column;
+    padding:14px 20px;
+    background:#0f172a;
+    border-bottom:1px solid #1f2937;
+}
+
+.navbar h1{
+    font-size:20px;
+}
+
+.navbar p{
+    font-size:12px;
+    color:#9ca3af;
+}
+
+
+/* EXECUTION BAR */
+
+.execution-bar{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 20px;
+    border-bottom:1px solid #1f2937;
+    background:#0f172a;
+}
+
+.control-btn{
+    background:#1f2937;
+    border:none;
+    color:white;
+    padding:6px 10px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.run-btn{
+    margin-left:auto;
+    background:#10b981;
+    border:none;
+    padding:6px 16px;
+    border-radius:6px;
+    color:black;
+    font-weight:600;
+}
+
+
+/* STATUS BAR */
+
+.status-bar{
+    padding:10px 20px;
+    border-bottom:1px solid #1f2937;
+    font-size:14px;
+}
+
+
+/* MAIN LAYOUT */
+
+.container{
+    display:flex;
+    height:80vh;
+}
+
+
+/* EDITOR */
+
+.editor{
+    flex:2;
+    padding:20px;
+    border-right:1px solid #1f2937;
+}
+
+.code-input{
+    width:100%;
+    height:100%;
+    background:#020617;
+    color:#e2e8f0;
+    border:none;
+    padding:15px;
+    font-family:monospace;
+    font-size:14px;
+}
+
+
+/* RIGHT PANEL */
+
+.right-panel{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+
+/* VISUALIZER PANELS */
+
+.panel{
+    flex:1;
+    padding:15px;
+    border-bottom:1px solid #1f2937;
+    background:#020617;
+}
+
+.panel h3{
+    font-size:14px;
+    margin-bottom:10px;
+    color:#22c55e;
+}
