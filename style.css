@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* RESET */
 
 *{
@@ -126,3 +127,73 @@ body{
     margin-bottom:10px;
     color:#22c55e;
 }
+=======
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #0f172a;
+    color: white;
+}
+
+.container{
+    display:flex;
+    height: 80vh;
+}
+
+.editor{
+    flex:2;
+    border-right:1px solid #333;
+    padding : 20px;
+}
+
+.right-panel{
+    flex:1;
+    display: flex;
+    flex-direction:column;
+}
+
+.panel{
+    flex:1;
+    border-bottom: 1px solid #333;
+    padding: 20px;
+}
+
+.navbar{
+    padding: 15px   20px;
+    background: #020617;
+    border-bottom: 1px solid #333;
+}
+
+.execution-bar{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border-bottom: 1px solid #333;
+}
+
+button{
+    padding:6px 12px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.code-input{
+    width:100%;
+    height:90%;
+    margin-top:10px;
+    background:#020617;
+    color:#22c55e;
+    border:none;
+    padding:10px;
+    font-family:monospace;
+}
+>>>>>>> 579f23e4e0656580e90f208dc82775ff5ba1800d
